@@ -2,20 +2,12 @@ import java.util.Scanner;
 
 public class Factorial {
 
-    // Function to calculate factorial
-    static long factorial(int n) {
-        long fact = 1;
-
-        for (int i = 1; i <= n; i++) {
-            fact *= i;
+    
+    public static void factorial(String[] args) {
+        if(n==0||n==1){
+            return 1;
         }
-
-        return fact;
-    }
-
-    // Main function
-    public static void main(String[] args) {
-        factorial(5);
+       return n*factorial(n-1);
 
     }
 }
