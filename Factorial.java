@@ -15,13 +15,7 @@ public class Factorial {
 
     // Main function
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        factorial(5);
 
-        System.out.print("Enter a number: ");
-        int n = sc.nextInt();
-
-        System.out.println("Factorial = " + factorial(n));
-
-        sc.close();
     }
 }
